@@ -1,1 +1,12 @@
+@import "global.css";
+@import "footer.css";
+@import "general.css";
 @import "header.css";
+@import "services.css";
+@import "about_us.css";
+@import "clining_plate.css";
+
+
+.top_background {
+    background: linear-gradient(to bottom, rgb(84, 190, 243), rgb(202, 230, 249));
+}

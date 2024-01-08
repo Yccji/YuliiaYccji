@@ -1,0 +1,64 @@
+.clining_plate {
+    background-color: rgb(114, 173, 249);
+    width: 100%;
+    min-width: 320px;
+    padding: 3%;
+}
+
+.clining_plate__example__img {
+    margin: auto;
+    width: 120px;
+    object-fit: cover;
+    height: 120px;
+}
+
+.clining_plate__example__text {
+    font-size: 25px;
+}
+
+
+
+.clining_plate {
+    background-position: center;
+    background-size: cover;
+    display: block;
+    min-width: 320px;
+    padding: 24px;
+}
+
+.clining_plate__examples{
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 20px;
+}
+
+@media (min-width: 768px) {
+    .sponsors_contant {
+        display: block;
+    }
+
+    .clining_plate__examples{
+        grid-template-columns: 1fr 1fr;
+    }
+} 
+
+@media (min-width: 992px) {
+    .clining_plate {
+        padding-top: 100px;
+        height: 1000px;
+    }
+
+    .sponsors_contant {
+        display: flex;
+    }
+
+    .sponsors__text {
+        padding-right: 20px;
+    }
+
+    .clining_plate__examples {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
