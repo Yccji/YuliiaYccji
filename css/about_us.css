@@ -3,3 +3,16 @@
         min-width: 320px;
         padding: 3%;
 }
+
+.about_us__title {
+    height: auto;
+    padding-top: 1%;
+    font-size: 27px;
+    color: rgb(27, 96, 187);
+}
+
+.about_us__text {
+    height: auto;
+    padding-top: 1%;
+    font-size: 17px;
+}

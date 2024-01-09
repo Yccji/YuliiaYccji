@@ -8,8 +8,8 @@
 .clining_plate__example__img {
     margin: auto;
     object-fit: cover;
-    height: 80px;
-    width: 80px;
+    height: 100px;
+    width: 100px;
 }
 
 .clining_plate__toper_description {
@@ -21,7 +21,7 @@
 .clining_plate__lower_description {
     height: auto;
     padding-top: 1%;
-    font-size: 19px;
+    font-size: 17px;
 }
 
 .clining_plate__example__text {
@@ -32,6 +32,7 @@
 }
 
 .clining_plate__example {
+    min-height: 170px;
     margin: 0 auto;
     width: 100%;
     max-width: 400px;

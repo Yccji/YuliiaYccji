@@ -16,7 +16,44 @@
 </head>
 <body>
     <div class="container">
-  <header class="header">
+<header class="header">
+        <div class="header__burger"><span></span></div>
+        <nav class="header__menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="#welcome" class="menu__link">About</a>
+            </li>
+            <li class="menu__item">
+              <a href="#services" class="menu__link">Services</a>
+            </li>
+            <li class="menu__item">
+              <a href="#details" class="menu__link">More details</a>
+            </li>
+            <li class="menu__item">
+              <a href="#footer" class="menu__link">Contact Us</a>
+            </li>
+          </ul>
+          <ul class="social__platforms">
+            <li class="social__items">
+              <a href="https://www.facebook.com/" target="_blank" class="social__links">
+                <img width="30" height="30" src="img/facebook.svg" alt="facebook logo" />
+              </a>
+            </li>
+            <li class="social__items">
+              <a href="https://www.instagram.com/" target="_blank" class="social__links">
+                <img width="30" height="30" src="img/instagram.svg" alt="instagram logo" />
+              </a>
+            </li>
+            <li class="social__items">
+              <a href="https://www.youtube.com/" target="_blank" class="social__links"><img width="30" height="30"
+                  src="img/youtube.svg" alt="youtube logo" />
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+    </div>
     <div class="header__label">
         <img src="img/logo.svg" alt="..." class="header__label__logo">
         <p class="header__label__motto">«En rengøring af hus og hjem, er som at få renset sjælen.»</p>
@@ -115,7 +152,7 @@
     </div>
 
     <div class="about_us">
-        <h2 class="about_us__title">Om os</h2>
+        <h2 class="about_us__title"  id="welcome">Om os</h2>
         <p class="about_us__text">
             Vi påtager os rengøringsopgaver for både private og erhvervskunder i hele hovedstadsområdet, herunder 50-60 kilometer rundt om Hovedstaden. Ved at vælge vores rengøringsfirma garanterer du rengøring af høj kvalitet, der giver et grundigt og flot resultat – hver gang vi kommer til dig! Vi hjælper dig med at holde orden og renlighed i dine lokaler. Så vi vil meget gerne høre om dit rengøringsbehov, så vi kan fortælle dig mere om vores priser og give dig et uforpligtende tilbud.
         </p>
@@ -126,7 +163,7 @@
         <div class="clining_plate__main_image">
 
         </div>
-        <div class="clining_plate__toper_description">
+        <div class="clining_plate__toper_description" id="services">
             <!-- <h2>Har du brug for rengøring af klinik, kontor eller butik?</h2> -->
             <p>
                     Skræddersyede rengøringsløsninger, der passer til dit budget og behov. Vores rengøringsekspertise garanterer dig et rent og hygiejnisk miljø. Hos vores rengøringsfirma påtager vi os de opgaver, der skal løses for dig. Så vi har en bred vifte af ydelser.
@@ -174,7 +211,7 @@
             
         </div>
 
-        <div class="clining_plate__lower_description">
+        <div class="clining_plate__lower_description" id="details">
             <p>
                 Og leder du efter en anden service end dem, vi nævner her, så kontakt os bare og lad os vide, hvad du ønsker. Du kan få vores rengøringshjælp som en fast service gennem vores abonnementsløsning. Vi vender så tilbage til aftalt tid og udfører rengøringen. Har du kun brug for vores hjælp én gang, forpligter vi os naturligvis gerne. Vi hjælper dig med altid at have et skinnende rent og præsentabelt udseende. Der er selvfølgelig forskel på tilgangen til rengøring i privat hjem, børnehave eller klinik og rengøring efter renovering. Derfor skræddersyer vi vores rengøring til den enkelte kunde, så du får en rengøringsservice, der passer til netop dine behov
             </p>
@@ -214,7 +251,8 @@
             <p class="footer__label__motto">«En rengøring af hus og hjem, er som at få renset sjælen.»</p>
         </div>
     </footer>
-
+    <script src="js/burger.js"></script>
 </main>
 </div>
 </body>
+</html>
