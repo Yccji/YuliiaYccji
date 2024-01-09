@@ -6,7 +6,12 @@
 }
 
 html {
-    /* background-color: #a2ebff; */
+    background-color: #c3f0fc;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
 }
 
 :root {
@@ -16,9 +21,4 @@ html {
 img {
     display: block;
     width: 100%;
-}
-
-.container {
-    max-width: 1200px;
-    margin: auto;
 }
