@@ -32,6 +32,16 @@
 }
 
 .clining_plate__example {
+
+    display: grid;
+  grid-template-rows: auto 1fr; /* Перший рядок для картинки, другий для тексту */
+  align-items: center; /* Вертикальне центрування елементів */
+  gap: 10px;
+
+
+
+
+
     min-height: 170px;
     margin: 0 auto;
     width: 100%;
