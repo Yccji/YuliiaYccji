@@ -117,8 +117,16 @@
   .social__items {
     margin-right: 17px;
   }
+
+  .header__logo__text {
+    width: auto;
+    text-align: center;
+    font-size: 19px;
+    color: rgb(245, 236, 236);
+  }
   
   .header__logo {
+    min-width: 150px;
     z-index: 10;
     position: relative;
     flex: 0 0 60px;

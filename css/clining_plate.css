@@ -2,7 +2,7 @@
     background-color: rgb(114, 173, 249);
     width: 100%;
     min-width: 320px;
-    padding: 3%;
+    padding: 2% 3% 0.5% 3%;
 }
 
 .clining_plate__example__img {
@@ -94,10 +94,10 @@
         height: 130px;
         width: 130px;
     }
-    .clining_plate {
+    /* .clining_plate {
         padding-top: 100px;
         height: 1000px;
-    }
+    } */
 
     .sponsors_contant {
         display: flex;
