@@ -20,6 +20,7 @@
 }
 
 .descriptions__title {
+    max-height: 55px;
     font-size: 23px;
     color: rgb(27, 96, 187);
 }

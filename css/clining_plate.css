@@ -34,8 +34,8 @@
 .clining_plate__example {
 
     display: grid;
-  grid-template-rows: auto 1fr; /* Перший рядок для картинки, другий для тексту */
-  align-items: center; /* Вертикальне центрування елементів */
+  grid-template-rows: auto 1fr; 
+  align-items: center; 
   gap: 10px;
 
 
