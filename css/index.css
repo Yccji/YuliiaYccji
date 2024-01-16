@@ -9,12 +9,5 @@
 
 
 .top_background {
-    background: linear-gradient(to bottom, rgb(84, 190, 243), rgb(202, 230, 249));
-}
-
-.conteiner {  
-    max-width: 1200px;
-    margin: 0 auto;
-    /* margin: auto; */
-    /* max-width: 1200px; */
+    background: linear-gradient(to bottom, #439bdb, #a2eafc);
 }

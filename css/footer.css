@@ -1,6 +1,6 @@
 .footer {
 /* background-color: rgb(27, 96, 187); */
-padding: 20px 25px;
+padding: 2%;
 display: grid;
 grid-template-rows: auto 1fr; 
 align-items: center; 
@@ -16,6 +16,9 @@ font-size: 12px;
 }
 
 .footer__logo {
+    max-height: 65px;
+    max-width: 165px;
+
     align-items: center;
     object-fit: cover;
 }
@@ -45,6 +48,7 @@ font-size: 12px;
         .footer__logo {
             /* min-width: 190px;
             min-height: 75px; */
+
             position: relative;
             flex: 0 0 60px;
           }
