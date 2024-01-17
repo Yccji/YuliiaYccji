@@ -6,12 +6,25 @@
 }
 
 html {
-    background-color: #a2eafc;
+    /* background-color: #a2eafc; */
+    background: linear-gradient(to bottom,  #187cc4,  #a2eafc,#0973bf);
 }
 
 .container {
     max-width: 1200px;
     margin: auto;
+}
+
+/* .body {
+    background: linear-gradient(to bottom,  #187cc4,  #a2eafc,#0973bf);
+    height: 100vh;
+    margin: 0;
+} */
+.background_container {
+
+    background-image: url(../img/buble-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 :root {
